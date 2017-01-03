@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/ligar"
+        android:title="Ligar pessoa" />
+
+
+
+    <item
+        android:id="@+id/informar_dados_adcionais"
+        android:title="Exibir  Dados Completos" />
+</menu>

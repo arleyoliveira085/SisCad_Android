@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.oliveira.m4dadm_arley_laurindo_de_oliveira">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_app_arley"
+        android:label="SistCad-Arley Oliveira"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".Visao.SplashScreamAtividade"
+            android:theme="@style/AppTheme.tema_fullscream">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Visao.TelaPrincipal"
+            android:label="Menu Principal" />
+        <activity
+            android:name=".Visao.CadastrarPessoas"
+            android:label="Cadastrar" />
+        <activity
+            android:name=".Visao.ListarRegistro"
+            android:label="Listar Registros" />
+        <activity android:name=".Visao.DetalharPessoa" android:label="Detalhamento de Usuário"></activity>
+    </application>
+
+</manifest>
